@@ -10,6 +10,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/", router);
 
-if (import.meta.env.PROD) app.listen(3000);
+if (import.meta.env.PROD) app.listen(4000);
 
 export const viteNodeApp = app;
