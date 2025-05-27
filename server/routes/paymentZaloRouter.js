@@ -20,7 +20,7 @@ paymentZaloRouter.post("/create-order", async (req, res) => {
 
   const embed_data = {
     preferred_payment_method: ["international_card"],
-    redirecturl: "http://localhost:3000/payment-result?paymentMethod=zalopay",
+    redirecturl: "https://user-sell-app-git-main-thanhlams-projects-9afb4803.vercel.app/payment-result?paymentMethod=zalopay",
   };
   const order = {
     app_id: config.app_id,
